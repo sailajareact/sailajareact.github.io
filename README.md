@@ -11,7 +11,7 @@ The game should be different every time the game is refreshed.
 Moves will change based on the player either matched or unmatched the cards also,  
 timer will start once player click on intial card and score rating will change based move
 
-Click the demo to get an understanding of what we’ll be creating.
+Click the [demo](https://sailajareact.github.io/) to get an understanding of what we’ll be creating.
 
 
 ## Libraries and used:
