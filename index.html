@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Memory Game</h1>
+        <section class="score-panel">
+            <ul id="stars" class="stars">
+                <li>
+                    <i class="fa fa-star checked"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star checked"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star checked"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star checked"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star checked"></i>
+                </li>
+            </ul>
+
+            <span id="moves" class="moves">0</span> Moves
+
+            <div class="space">
+
+                Timer
+                <time class="alignment">00:00:00</time>
+            </div>
+
+            <div class="restart">
+                <i class="fa" id="reset">&#xf021;</i>
+            </div>
+        </section>
+
+        <!-- Memory Board -->
+        <div id="memory-board"></div>
+
+        <!-- modal: congratulations dialog -->
+        <section id="dialog" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Congratulations you won the game..:)</h3>
+                    <div id="scoreDetails"></div>
+                    <button class="playAgain">Play Again</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
