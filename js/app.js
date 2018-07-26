@@ -217,16 +217,12 @@ let boardValues = [
     if (moves > 8 && moves <= 11) {
       stars[stars.length - 1].classList.remove("checked");
     } else if (moves > 12 && moves < 16) {
-      // stars[stars.length - 1].classList.remove("checked");
       stars[stars.length - 2].classList.remove("checked");
     } else if (moves > 16 && moves <= 19) {
-      // stars[stars.length - 1].classList.remove("checked");
-      // stars[stars.length - 2].classList.remove("checked");
       stars[stars.length - 3].classList.remove("checked");
     } else if (moves > 23) {
       stars[stars.length - 4].classList.remove("checked");
-      // uncheckStars();
-    }
+      }
   }
   
   // main memory game logic part
