@@ -25,9 +25,8 @@ let boardValues = [
     seconds = 0,
     minutes = 0,
     hours = 0;
-  var counter = 0;
-  var tm;
-  const queImage = "/images/icon-que.png";
+  let counter = 0;
+  let tm;
   
   const memoryBoard = document.getElementById("memory-board");
   const reset = document.getElementById("reset");
